@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon site</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <div class="nav-list">
+                <div class="maListe">
+                    <div class="liste">
+                        <a href="#home">Accueil</a>
+                        <a href="#about">À propos de</a>
+                        <a href="#services">Services</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="mon-bouton">
+                        <a href="https://pevansfan.github.io/site-formulaire/" class="btn-signup">Connexion</a>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+            <div class="wrapper">
+                <h1>Hi, I'm
+                    <span>
+                        <ul class="sec-texts">
+                            <li><span>Parfait Evans</span></li>
+                            <li><span>a Developer</span></li>
+                            <li><span>a Designer</span></li>
+                            <li><span>a Graphist</span></li>
+                        </ul>
+                    </span>
+                </h1>
+            </div>
+
+            <h2>Frontend Developer</h2>
+            <p>Explorez l'univers de l'informatique à travers mon site, une plateforme pensée pour partager ma passion
+                et mon expertise en développement web</p>
+            <div class="btn-group">
+                <a href="CV/mon_cv.html">Télécharger mon CV</a>
+                <a href="#portfolio">Mes Projets</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/evans.prft/"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.facebook.com/profile.php?id=100078103082233"><ion-icon
+                        name="logo-facebook"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/evans-parfait-ab569a29b/"><ion-icon
+                        name="logo-linkedin"></ion-icon></a>
+                <a href="https://github.com/pevansfan"><ion-icon name="logo-github"></ion-icon></a>
+            </div>
+        </div>
+        <div class="container-img">
+            <a href="https://lamanu.fr"><img src="assets/img/ordi.png" alt="" width="100%"></a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/img/icon-person.png" alt="">
+        </div>
+        <div class="about-content">
+            <h1 class="heading">À propos de <span>Moi</span></h1>
+            <p>Enthousiaste et passionné par le monde de l'informatique, je suis actuellement étudiant à LA MANU. Ma
+                quête de connaissances et mon engagement dans le domaine de la programmation, du développement web et de
+                la résolution de problèmes informatiques m'ont permis de m'épanouir au sein de cette communauté
+                dynamique. Toujours avide d'apprendre et de relever de nouveaux défis, je cherche à développer des
+                compétences
+                solides pour contribuer de manière significative à
+                l'univers en constante évolution de la technologie.</p>
+            <a href="#" class="btn-signup">Voir plus</a>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h1 class="heading">Mes <span>Services</span></h1>
+        <div class="services-container">
+            <div class="services-box">
+                <ion-icon name="code-slash-outline"></ion-icon>
+                <h2>Développemnt Web</h2>
+                <p>Mon intérêt pour le
+                    développement web est une aventure où la créativité rencontre la technologie pour façonner le futur
+                    digital avec innovation et élégance.</p>
+                <a href="" class="btn-signup">Voir plus</a>
+            </div>
+            <div class="services-box">
+                <ion-icon name="color-palette-outline"></ion-icon>
+                <h2>Graphic Designer</h2>
+                <p>Même si le design n'est pas mon point fort, je cherche toujours à trouver des idées visuelles
+                    uniques, alliant esthétique et impact pour créer des visuels mémorables et captivants.</p>
+                <a href="" class="btn-signup">Voir plus</a>
+            </div>
+            <div class="services-box">
+                <ion-icon name="logo-python"></ion-icon>
+                <h2>Programmation</h2>
+                <p>Je trouve une satisfaction unique à transformer des concepts abstraits en solutions
+                    concrètes, avec rigueur et créativité pour construire des systèmes efficaces.</p>
+                <a href="" class="btn-signup">Voir plus</a>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading">Mes <span>Projets</span></h1>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="assets/img/PROJET-RESTAURANT.png" alt="">
+                <div class="portfolio-layer">
+                    <h3>Web Design</h3>
+                    <p>Création d'un site vitrine pour un restaurant</p>
+                    <a href="../MON SITE/assets/Mes projets/PROJET RESTAURANT/site_bon_appetit.html"><ion-icon
+                            name="open-outline"></ion-icon></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="assets/img/PROJET-SHIFUMI.png" alt="">
+                <div class="portfolio-layer">
+                    <h3>Web Design</h3>
+                    <p>Création d'une interface web d'une partie de shifumi</p>
+                    <a href="../MON SITE/assets/Mes projets/PROJET SHIFUMI/index.html"><ion-icon
+                            name="open-outline"></ion-icon></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="assets/img/PROJET-BURGER KING.png" alt="">
+                <div class="portfolio-layer">
+                    <h3>Web Design</h3>
+                    <p>Reproduction du site Burger King (ajout personnel d'une section Réservation)</p>
+                    <a href="../MON SITE/assets/Mes projets/BURGER KING/burger_king.html"><ion-icon
+                            name="open-outline"></ion-icon></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="assets/img/AGENCE.png" alt="" width="10%">
+                <div class="portfolio-layer">
+                    <h3>UI/UX Design</h3>
+                    <p>Création d'un prototype pour une agence immobilière</p>
+                    <a
+                        href="https://www.figma.com/proto/76bCRrIbY94RcaVSWHGsRc/MAQUETTAGE?node-id=29-2&starting-point-node-id=29%3A2"><ion-icon
+                            name="open-outline"></ion-icon></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="assets/img/calculatrice.png" alt="" width="10%">
+                <div class="portfolio-layer">
+                    <h3>Web Design</h3>
+                    <p>Création d'une calculatrice (en utilisant du Vue.js et Bootstrap)</p>
+                    <a href="assets/Mes projets/exercice 4/grid4.html"><ion-icon name="open-outline"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-contact" id="contact">
+        <h1>Contactez-moi !</h1>
+        <form action="envoi.php" id="inscriptionForm" method="post">
+            <div class="identity">
+                <div class="input-box">
+                    <input type="text" id="name" required>
+                    <label>Nom</label>
+                </div>
+                <div class="input-box">
+                    <input type="text" id="firstname" required>
+                    <label>Prénom</label>
+                </div>
+            </div>
+            <div class="input-box">
+                <input type="email" id="email" required>
+                <label>Adresse mail</label>
+            </div>
+            <div class="input-box2">
+                <textarea name="area" id="area" cols="60" rows="10"
+                    placeholder="Écrivez votre message ici..."></textarea>
+            </div>
+            <button type="submit" class="btn" id="contactxsx" onclick="showPopup()">Envoyer</button>
+            <div class="pop-up" id="popup" style="display: none;">
+                <p><ion-icon name="checkmark-outline"></ion-icon><i>Votre message a bien été envoyé</i></p>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div class="footerBottom">
+            <p>CopyRight &copy;2024; Designed by <span class="designer">Evans</span></p>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
