@@ -9,7 +9,7 @@
 }
 
 body{
-    background: #1f293a;
+    background: #777670;
 }
 
 header {
@@ -38,7 +38,7 @@ header {
     padding-left: 20px;
     padding-right: 20px;
     list-style: none;
-    text-shadow: 0 0 10px #0ef;
+    text-shadow: 0 0 10px #fff;
     animation: slide 12s steps(4) infinite;
 }
 
@@ -52,8 +52,8 @@ header {
     left: 0;
     width: 300px;
     height: 60px;
-    background: #1f293a;
-    border-left: 1px solid #0ef;
+    background: #777670;
+    border-left: 1px solid #fff;
     animation: typing 1.5s steps(25) infinite
     alternate;
 }
@@ -90,9 +90,9 @@ header {
 }
 
 .btn-signup{
-    color: #fff;
+    color: #1f293a;
     padding: 8px 35px;
-    background: #0ef;
+    background: #BAFF39;
     text-decoration: none;
     border-radius: 10px;
     border: 2px solid #fff;
@@ -140,7 +140,7 @@ header {
 }
 
 span {
-    color: #0ef;
+    color: #BAFF39;
 
 }
 
@@ -157,7 +157,7 @@ span {
     color: #fff;
     text-decoration: none;
     padding: 10px 40px;
-    background: #0ef;
+    background: transparent;
     border-radius: 10px;
     border: 2px solid #fff;
     transition: .3s;
@@ -176,7 +176,7 @@ span {
 
 .btn-group a:hover:nth-child(2) {
     color: #fff;
-    background: #0ef;
+    background: transparent;
 } 
 
 .social-icons {
@@ -194,7 +194,7 @@ span {
     text-align: center;
     line-height: 50px;
     border: 1px solid #fff;
-    outline: 2px solid #0ef;
+    outline: 2px solid #BAFF39;
     transition: .3s;
 }
 
@@ -214,7 +214,7 @@ span {
     justify-content: center;
     align-items: center;
     gap: 10rem;
-    background: #2f3e58;
+    background: #908f87;
     color: #fff;
 }
 
@@ -261,14 +261,14 @@ span {
     margin: 2rem;
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
-    background: #2f3e58;
+    background: #908f87;
     text-align: center;
-    border: .2rem solid #1f293a;
+    border: .2rem solid #fff;
     transition: .5s ease;
 }
 
 .services-container .services-box:hover {
-    border-color: #0ef;
+    border-color: #BAFF39;
     transform: scale(1.02);
 }
 
@@ -278,7 +278,7 @@ span {
 
 .services-box ion-icon {
     font-size: 7rem;
-    color: #0ef;
+    color: #BAFF39;
 }
 
 .services-box h2 {
@@ -291,7 +291,7 @@ span {
 }
 
 .portfolio {
-    background: #2f3e58;
+    background: #908f87;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -342,7 +342,7 @@ span {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, .1), #0ef);
+    background: linear-gradient(rgba(0, 0, 0, .1), #BAFF39);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -428,7 +428,7 @@ span {
     width: 100%;
     height: 50px;
     background: transparent;
-    border: 2px solid #2c4766;
+    border: 2px solid #BAFF39;
     border-radius: 40px;
     font-size: 1em;
     color: #fff;
@@ -437,7 +437,7 @@ span {
 }
 .input-box input:focus,
 .input-box input:valid {
-    border-color: #0ef;
+    border-color: #BAFF39;
 }
 .input-box label {
     position: absolute;
@@ -453,9 +453,9 @@ span {
 .input-box input:valid~label {
     top: 1px;
     font-size: 0.8em;
-    background: #1f293a;
+    background: #777670;
     padding: 0 6px;
-    color: #0ef;
+    color: #BAFF39;
 }
 
 .input-box2 {
@@ -471,7 +471,7 @@ span {
 .btn {
     width: 100%;
     height: 45px;
-    background: #0ef;
+    background: #BAFF39;
     border: none;
     border-radius: 40px;
     cursor: pointer;
@@ -488,8 +488,8 @@ span {
 
 .pop-up{
     margin: 10px;
-    width: 400px;
-    padding: 5px;
+    width: 100%;
+    padding: 15px;
     background: rgb(231, 253, 255);
     display: flex;
     justify-content: center;
