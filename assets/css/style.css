@@ -571,7 +571,7 @@ span {
 @media screen and (max-width: 760px) {
 
     header {
-        background-color: #1f293a;
+        background-color: #777670;
         padding-bottom: 30px;
     }
 
@@ -790,6 +790,23 @@ span {
         width: 100%;
         height: 40px;
     }
+    
+
+    .portfolio-box .portfolio-layer {
+        transform: none;
+        width: 100%;
+        padding-bottom: 30px;
+        margin-top: -20px;
+    }
+
+    .identity {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .identity .input-box {
+        margin: 25px 0;
+    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -799,7 +816,7 @@ span {
     }
 
     header {
-        background-color: #1f293a;
+        background-color: #777670;
         padding-bottom: 30px;
     }
 
@@ -1017,5 +1034,12 @@ span {
     .input-box input{
         width: 100%;
         height: 40px;
+    }
+
+    .portfolio-box .portfolio-layer {
+        transform: none;
+        width: 100%;
+        padding-bottom: 30px;
+        margin-top: -20px;
     }
 }
