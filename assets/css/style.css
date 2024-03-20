@@ -311,14 +311,14 @@ span {
 .portfolio-container {
     margin-top: -50px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-items: center;
     gap: 2.5rem;
 }
 
 .portfolio-box {
-    width: 450px;
+    width: 350px;
 }
 
 .portfolio-box img {
@@ -362,7 +362,7 @@ span {
 .portfolio-box .portfolio-layer h3 {
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .portfolio-layer {
@@ -380,11 +380,15 @@ span {
 }
 
 .portfolio-layer a ion-icon {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #2f3e58;
     background: #fff;
     padding: 10px;
     border-radius: 50%;
+}
+
+.portfolio-layer p {
+    font-size: 13px;
 }
 
 .portfolio-container:nth-child(4) {
