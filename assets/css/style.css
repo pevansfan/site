@@ -353,6 +353,7 @@ span {
     color: #fff;
     transform: translateY(100%);
     transition: .5s ease;
+    margin-top: -2px;
 }
 
 .portfolio-box:hover .portfolio-layer {
